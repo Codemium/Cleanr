@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D80FB2EF586407D9C30C1F9 /* Pods_Cleanr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842DC04C7C9D2D2AD59000C9 /* Pods_Cleanr.framework */; };
+		BA757D002119FA4000123C52 /* AdminPageThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA757CFF2119FA4000123C52 /* AdminPageThreeViewController.swift */; };
 		BA8E45442110BE0F00BEF918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E45432110BE0F00BEF918 /* AppDelegate.swift */; };
 		BA8E45462110BE0F00BEF918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E45452110BE0F00BEF918 /* ViewController.swift */; };
 		BA8E454B2110BE1300BEF918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8E454A2110BE1300BEF918 /* Assets.xcassets */; };
+		BA9BAEAD2119500B00F99A6B /* AdminTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAEAC2119500B00F99A6B /* AdminTabViewController.swift */; };
+		BA9BAEAF211950DA00F99A6B /* AdminPageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAEAE211950DA00F99A6B /* AdminPageOneViewController.swift */; };
+		BA9BAEB12119518800F99A6B /* AdminPageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAEB02119518800F99A6B /* AdminPageTwoViewController.swift */; };
 		D67D96D72111D3AE00370B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67D96D52111D3AE00370B4B /* LaunchScreen.storyboard */; };
 		D67D96D82111D3AE00370B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67D96D62111D3AE00370B4B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E379DD12126D1B328166343 /* Pods-Cleanr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleanr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cleanr/Pods-Cleanr.release.xcconfig"; sourceTree = "<group>"; };
+		7485FEB7010485B7AD1285DC /* Pods-Cleanr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleanr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cleanr/Pods-Cleanr.debug.xcconfig"; sourceTree = "<group>"; };
+		842DC04C7C9D2D2AD59000C9 /* Pods_Cleanr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cleanr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA757CFF2119FA4000123C52 /* AdminPageThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPageThreeViewController.swift; sourceTree = "<group>"; };
 		BA8E45402110BE0F00BEF918 /* Cleanr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cleanr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8E45432110BE0F00BEF918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA8E45452110BE0F00BEF918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA8E454A2110BE1300BEF918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA8E454F2110BE1300BEF918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9BAEAC2119500B00F99A6B /* AdminTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminTabViewController.swift; sourceTree = "<group>"; };
+		BA9BAEAE211950DA00F99A6B /* AdminPageOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPageOneViewController.swift; sourceTree = "<group>"; };
+		BA9BAEB02119518800F99A6B /* AdminPageTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPageTwoViewController.swift; sourceTree = "<group>"; };
 		D67D96D52111D3AE00370B4B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D67D96D62111D3AE00370B4B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D80FB2EF586407D9C30C1F9 /* Pods_Cleanr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FEC18B80489998280CF8F65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7485FEB7010485B7AD1285DC /* Pods-Cleanr.debug.xcconfig */,
+				0E379DD12126D1B328166343 /* Pods-Cleanr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BA8E45372110BE0E00BEF918 = {
 			isa = PBXGroup;
 			children = (
 				BA8E45422110BE0F00BEF918 /* Cleanr */,
 				BA8E45412110BE0F00BEF918 /* Products */,
+				8FEC18B80489998280CF8F65 /* Pods */,
+				EEEFD41AEB1F8E1BFE4225D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +82,22 @@
 				BA8E45452110BE0F00BEF918 /* ViewController.swift */,
 				D67D96D52111D3AE00370B4B /* LaunchScreen.storyboard */,
 				D67D96D62111D3AE00370B4B /* Main.storyboard */,
+				BA9BAEAC2119500B00F99A6B /* AdminTabViewController.swift */,
+				BA9BAEAE211950DA00F99A6B /* AdminPageOneViewController.swift */,
+				BA9BAEB02119518800F99A6B /* AdminPageTwoViewController.swift */,
+				BA757CFF2119FA4000123C52 /* AdminPageThreeViewController.swift */,
 				BA8E454A2110BE1300BEF918 /* Assets.xcassets */,
 				BA8E454F2110BE1300BEF918 /* Info.plist */,
 			);
 			path = Cleanr;
+			sourceTree = "<group>";
+		};
+		EEEFD41AEB1F8E1BFE4225D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				842DC04C7C9D2D2AD59000C9 /* Pods_Cleanr.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA8E45522110BE1300BEF918 /* Build configuration list for PBXNativeTarget "Cleanr" */;
 			buildPhases = (
+				A85F308A16DE862FC7CE8DF6 /* [CP] Check Pods Manifest.lock */,
 				BA8E453C2110BE0F00BEF918 /* Sources */,
 				BA8E453D2110BE0F00BEF918 /* Frameworks */,
 				BA8E453E2110BE0F00BEF918 /* Resources */,
+				9A100D75B6CFC58283DDC78E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +168,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A100D75B6CFC58283DDC78E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cleanr/Pods-Cleanr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AutoInsetter/AutoInsetter.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Pageboy/Pageboy.framework",
+				"${BUILT_PRODUCTS_DIR}/Tabman/Tabman.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoInsetter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pageboy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tabman.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cleanr/Pods-Cleanr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A85F308A16DE862FC7CE8DF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cleanr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA8E453C2110BE0F00BEF918 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA757D002119FA4000123C52 /* AdminPageThreeViewController.swift in Sources */,
+				BA9BAEAF211950DA00F99A6B /* AdminPageOneViewController.swift in Sources */,
 				BA8E45462110BE0F00BEF918 /* ViewController.swift in Sources */,
 				BA8E45442110BE0F00BEF918 /* AppDelegate.swift in Sources */,
+				BA9BAEAD2119500B00F99A6B /* AdminTabViewController.swift in Sources */,
+				BA9BAEB12119518800F99A6B /* AdminPageTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +346,7 @@
 		};
 		BA8E45532110BE1300BEF918 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7485FEB7010485B7AD1285DC /* Pods-Cleanr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -277,6 +365,7 @@
 		};
 		BA8E45542110BE1300BEF918 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E379DD12126D1B328166343 /* Pods-Cleanr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

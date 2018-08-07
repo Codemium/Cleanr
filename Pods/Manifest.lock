@@ -1,0 +1,38 @@
+PODS:
+  - AutoInsetter (1.2.6)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Pageboy (2.5.4)
+  - Tabman (1.9.2):
+    - AutoInsetter (~> 1.2.0)
+    - Pageboy (~> 2.5.0)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Tabman (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AutoInsetter
+    - Pageboy
+    - Tabman
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  AutoInsetter: 3713c857f3c0cc4b6265fe55ecf0c14bfe8622ee
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Pageboy: 46d743783414a18f8b27a988485e0ed2ea219ff7
+  Tabman: a09f7d7aa62b231ec475ca9eb9171f7cc973a3d7
+
+PODFILE CHECKSUM: 925c5c36e7f13a4f0b7712990b0c37c8e5d5ed1a
+
+COCOAPODS: 1.5.3
