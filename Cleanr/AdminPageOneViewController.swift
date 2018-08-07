@@ -22,5 +22,5 @@ class AdminPageOneViewController: UIViewController {
         super.didReceiveMemoryWarning()
   
     }
-    
+     
 }
