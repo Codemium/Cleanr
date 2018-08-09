@@ -382,10 +382,10 @@
             </objects>
             <point key="canvasLocation" x="3516" y="280.20989505247377"/>
         </scene>
-        <!--View Controller-->
+        <!--Admin Page Three View Controller-->
         <scene sceneID="71f-3B-avE">
             <objects>
-                <viewController id="Bni-qs-HbI" sceneMemberID="viewController">
+                <viewController id="Bni-qs-HbI" customClass="AdminPageThreeViewController" customModule="Cleanr" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YGV-9n-S9Q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
