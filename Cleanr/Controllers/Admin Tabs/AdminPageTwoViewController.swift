@@ -1,5 +1,5 @@
 //
-//  AdminPageThreeViewController.swift
+//  AdminPageTwoViewController.swift
 //  Cleanr
 //
 //  Created by vishwajeet on 07/08/18.
@@ -7,10 +7,8 @@
 //
 
 import UIKit
-import Tabman
-import Pageboy
 
-class AdminPageThreeViewController: UIViewController {
+class AdminPageTwoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,5 +1,5 @@
 //
-//  AdminPageTwoViewController.swift
+//  AdminPageOneViewController.swift
 //  Cleanr
 //
 //  Created by vishwajeet on 07/08/18.
@@ -7,10 +7,9 @@
 //
 
 import UIKit
-import Tabman
-import Pageboy
 
-class AdminPageTwoViewController: UIViewController {
+
+class AdminPageOneViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,9 +19,7 @@ class AdminPageTwoViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+  
     }
-    
- 
-
+     
 }

@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0D80FB2EF586407D9C30C1F9 /* Pods_Cleanr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842DC04C7C9D2D2AD59000C9 /* Pods_Cleanr.framework */; };
+		BA200B6B211DCECF00C5E0F8 /* AdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA200B6A211DCECF00C5E0F8 /* AdminLoginViewController.swift */; };
+		BA200B72211DEC4900C5E0F8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA200B71211DEC4900C5E0F8 /* CustomTableViewCell.swift */; };
 		BA757D002119FA4000123C52 /* AdminPageThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA757CFF2119FA4000123C52 /* AdminPageThreeViewController.swift */; };
 		BA8E45442110BE0F00BEF918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E45432110BE0F00BEF918 /* AppDelegate.swift */; };
 		BA8E45462110BE0F00BEF918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E45452110BE0F00BEF918 /* ViewController.swift */; };
 		BA8E454B2110BE1300BEF918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8E454A2110BE1300BEF918 /* Assets.xcassets */; };
-		BA9BAEAD2119500B00F99A6B /* AdminTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAEAC2119500B00F99A6B /* AdminTabViewController.swift */; };
+		BA9BAEAD2119500B00F99A6B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAEAC2119500B00F99A6B /* RootViewController.swift */; };
 		BA9BAEAF211950DA00F99A6B /* AdminPageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAEAE211950DA00F99A6B /* AdminPageOneViewController.swift */; };
 		BA9BAEB12119518800F99A6B /* AdminPageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAEB02119518800F99A6B /* AdminPageTwoViewController.swift */; };
 		D67D96D72111D3AE00370B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67D96D52111D3AE00370B4B /* LaunchScreen.storyboard */; };
@@ -23,13 +25,15 @@
 		0E379DD12126D1B328166343 /* Pods-Cleanr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleanr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cleanr/Pods-Cleanr.release.xcconfig"; sourceTree = "<group>"; };
 		7485FEB7010485B7AD1285DC /* Pods-Cleanr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleanr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cleanr/Pods-Cleanr.debug.xcconfig"; sourceTree = "<group>"; };
 		842DC04C7C9D2D2AD59000C9 /* Pods_Cleanr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cleanr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA200B6A211DCECF00C5E0F8 /* AdminLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginViewController.swift; sourceTree = "<group>"; };
+		BA200B71211DEC4900C5E0F8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		BA757CFF2119FA4000123C52 /* AdminPageThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPageThreeViewController.swift; sourceTree = "<group>"; };
 		BA8E45402110BE0F00BEF918 /* Cleanr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cleanr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8E45432110BE0F00BEF918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA8E45452110BE0F00BEF918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA8E454A2110BE1300BEF918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA8E454F2110BE1300BEF918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA9BAEAC2119500B00F99A6B /* AdminTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminTabViewController.swift; sourceTree = "<group>"; };
+		BA9BAEAC2119500B00F99A6B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		BA9BAEAE211950DA00F99A6B /* AdminPageOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPageOneViewController.swift; sourceTree = "<group>"; };
 		BA9BAEB02119518800F99A6B /* AdminPageTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPageTwoViewController.swift; sourceTree = "<group>"; };
 		D67D96D52111D3AE00370B4B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +61,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BA200B70211DEA0200C5E0F8 /* Admin Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BAEAC2119500B00F99A6B /* RootViewController.swift */,
+				BA9BAEAE211950DA00F99A6B /* AdminPageOneViewController.swift */,
+				BA9BAEB02119518800F99A6B /* AdminPageTwoViewController.swift */,
+				BA757CFF2119FA4000123C52 /* AdminPageThreeViewController.swift */,
+			);
+			path = "Admin Tabs";
+			sourceTree = "<group>";
+		};
 		BA8E45372110BE0E00BEF918 = {
 			isa = PBXGroup;
 			children = (
@@ -79,17 +94,48 @@
 			isa = PBXGroup;
 			children = (
 				BA8E45432110BE0F00BEF918 /* AppDelegate.swift */,
-				BA8E45452110BE0F00BEF918 /* ViewController.swift */,
-				D67D96D52111D3AE00370B4B /* LaunchScreen.storyboard */,
-				D67D96D62111D3AE00370B4B /* Main.storyboard */,
-				BA9BAEAC2119500B00F99A6B /* AdminTabViewController.swift */,
-				BA9BAEAE211950DA00F99A6B /* AdminPageOneViewController.swift */,
-				BA9BAEB02119518800F99A6B /* AdminPageTwoViewController.swift */,
-				BA757CFF2119FA4000123C52 /* AdminPageThreeViewController.swift */,
-				BA8E454A2110BE1300BEF918 /* Assets.xcassets */,
+				BAC51569211F0FDE00F12940 /* View */,
+				BAC5156A211F0FED00F12940 /* Controllers */,
+				BAC5156C211F108A00F12940 /* Custom Cell */,
+				BAC5156B211F105200F12940 /* Supporting files */,
 				BA8E454F2110BE1300BEF918 /* Info.plist */,
 			);
 			path = Cleanr;
+			sourceTree = "<group>";
+		};
+		BAC51569211F0FDE00F12940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D67D96D62111D3AE00370B4B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAC5156A211F0FED00F12940 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E45452110BE0F00BEF918 /* ViewController.swift */,
+				BA200B6A211DCECF00C5E0F8 /* AdminLoginViewController.swift */,
+				BA200B70211DEA0200C5E0F8 /* Admin Tabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BAC5156B211F105200F12940 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E454A2110BE1300BEF918 /* Assets.xcassets */,
+				D67D96D52111D3AE00370B4B /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		BAC5156C211F108A00F12940 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BA200B71211DEC4900C5E0F8 /* CustomTableViewCell.swift */,
+			);
+			path = "Custom Cell";
 			sourceTree = "<group>";
 		};
 		EEEFD41AEB1F8E1BFE4225D6 /* Frameworks */ = {
@@ -176,17 +222,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Cleanr/Pods-Cleanr-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AutoInsetter/AutoInsetter.framework",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
-				"${BUILT_PRODUCTS_DIR}/Pageboy/Pageboy.framework",
-				"${BUILT_PRODUCTS_DIR}/Tabman/Tabman.framework",
+				"${BUILT_PRODUCTS_DIR}/PageMenuKitSwift/PageMenuKitSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoInsetter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pageboy.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tabman.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PageMenuKitSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -219,10 +261,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA757D002119FA4000123C52 /* AdminPageThreeViewController.swift in Sources */,
+				BA200B6B211DCECF00C5E0F8 /* AdminLoginViewController.swift in Sources */,
+				BA200B72211DEC4900C5E0F8 /* CustomTableViewCell.swift in Sources */,
 				BA9BAEAF211950DA00F99A6B /* AdminPageOneViewController.swift in Sources */,
 				BA8E45462110BE0F00BEF918 /* ViewController.swift in Sources */,
 				BA8E45442110BE0F00BEF918 /* AppDelegate.swift in Sources */,
-				BA9BAEAD2119500B00F99A6B /* AdminTabViewController.swift in Sources */,
+				BA9BAEAD2119500B00F99A6B /* RootViewController.swift in Sources */,
 				BA9BAEB12119518800F99A6B /* AdminPageTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

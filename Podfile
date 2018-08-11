@@ -7,7 +7,7 @@ target 'Cleanr' do
 
   # Pods for Cleanr
 
-pod 'Tabman', '~> 1.0'
+pod 'PageMenuKitSwift'
 pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 
 end
