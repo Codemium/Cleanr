@@ -44,7 +44,7 @@ class AdminPageThreeViewController: UIViewController, UITableViewDelegate, UITab
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "timeSheetCell", for: indexPath) as! CustomTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "timeSheetCell", for: indexPath) as! CustomTimeSheetCell
         
         
         cell.nameLabel.text = nameArray[indexPath.row]

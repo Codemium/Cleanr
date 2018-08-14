@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		0D80FB2EF586407D9C30C1F9 /* Pods_Cleanr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842DC04C7C9D2D2AD59000C9 /* Pods_Cleanr.framework */; };
 		BA200B6B211DCECF00C5E0F8 /* AdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA200B6A211DCECF00C5E0F8 /* AdminLoginViewController.swift */; };
-		BA200B72211DEC4900C5E0F8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA200B71211DEC4900C5E0F8 /* CustomTableViewCell.swift */; };
+		BA200B72211DEC4900C5E0F8 /* CustomTimeSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA200B71211DEC4900C5E0F8 /* CustomTimeSheetCell.swift */; };
+		BA493F9A21233C160089868F /* CleanerAllJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA493F9921233C160089868F /* CleanerAllJobsViewController.swift */; };
+		BA493F9C212343F60089868F /* CleanerAllJobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA493F9B212343F60089868F /* CleanerAllJobsTableViewCell.swift */; };
 		BA757D002119FA4000123C52 /* AdminPageThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA757CFF2119FA4000123C52 /* AdminPageThreeViewController.swift */; };
 		BA8E45442110BE0F00BEF918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E45432110BE0F00BEF918 /* AppDelegate.swift */; };
 		BA8E45462110BE0F00BEF918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E45452110BE0F00BEF918 /* ViewController.swift */; };
@@ -26,7 +28,9 @@
 		7485FEB7010485B7AD1285DC /* Pods-Cleanr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleanr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cleanr/Pods-Cleanr.debug.xcconfig"; sourceTree = "<group>"; };
 		842DC04C7C9D2D2AD59000C9 /* Pods_Cleanr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cleanr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA200B6A211DCECF00C5E0F8 /* AdminLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginViewController.swift; sourceTree = "<group>"; };
-		BA200B71211DEC4900C5E0F8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		BA200B71211DEC4900C5E0F8 /* CustomTimeSheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimeSheetCell.swift; sourceTree = "<group>"; };
+		BA493F9921233C160089868F /* CleanerAllJobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerAllJobsViewController.swift; sourceTree = "<group>"; };
+		BA493F9B212343F60089868F /* CleanerAllJobsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerAllJobsTableViewCell.swift; sourceTree = "<group>"; };
 		BA757CFF2119FA4000123C52 /* AdminPageThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPageThreeViewController.swift; sourceTree = "<group>"; };
 		BA8E45402110BE0F00BEF918 /* Cleanr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cleanr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8E45432110BE0F00BEF918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,11 +69,36 @@
 			isa = PBXGroup;
 			children = (
 				BA9BAEAC2119500B00F99A6B /* RootViewController.swift */,
-				BA9BAEAE211950DA00F99A6B /* AdminPageOneViewController.swift */,
-				BA9BAEB02119518800F99A6B /* AdminPageTwoViewController.swift */,
-				BA757CFF2119FA4000123C52 /* AdminPageThreeViewController.swift */,
+				BA493F9F21234DC30089868F /* Add new */,
+				BA493F9E21234DAB0089868F /* Jobs */,
+				BA493F9D21234D880089868F /* Timesheet */,
 			);
 			path = "Admin Tabs";
+			sourceTree = "<group>";
+		};
+		BA493F9D21234D880089868F /* Timesheet */ = {
+			isa = PBXGroup;
+			children = (
+				BA757CFF2119FA4000123C52 /* AdminPageThreeViewController.swift */,
+				BA493F9921233C160089868F /* CleanerAllJobsViewController.swift */,
+			);
+			path = Timesheet;
+			sourceTree = "<group>";
+		};
+		BA493F9E21234DAB0089868F /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BAEB02119518800F99A6B /* AdminPageTwoViewController.swift */,
+			);
+			path = Jobs;
+			sourceTree = "<group>";
+		};
+		BA493F9F21234DC30089868F /* Add new */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BAEAE211950DA00F99A6B /* AdminPageOneViewController.swift */,
+			);
+			path = "Add new";
 			sourceTree = "<group>";
 		};
 		BA8E45372110BE0E00BEF918 = {
@@ -133,7 +162,8 @@
 		BAC5156C211F108A00F12940 /* Custom Cell */ = {
 			isa = PBXGroup;
 			children = (
-				BA200B71211DEC4900C5E0F8 /* CustomTableViewCell.swift */,
+				BA200B71211DEC4900C5E0F8 /* CustomTimeSheetCell.swift */,
+				BA493F9B212343F60089868F /* CleanerAllJobsTableViewCell.swift */,
 			);
 			path = "Custom Cell";
 			sourceTree = "<group>";
@@ -262,12 +292,14 @@
 			files = (
 				BA757D002119FA4000123C52 /* AdminPageThreeViewController.swift in Sources */,
 				BA200B6B211DCECF00C5E0F8 /* AdminLoginViewController.swift in Sources */,
-				BA200B72211DEC4900C5E0F8 /* CustomTableViewCell.swift in Sources */,
+				BA493F9C212343F60089868F /* CleanerAllJobsTableViewCell.swift in Sources */,
+				BA200B72211DEC4900C5E0F8 /* CustomTimeSheetCell.swift in Sources */,
 				BA9BAEAF211950DA00F99A6B /* AdminPageOneViewController.swift in Sources */,
 				BA8E45462110BE0F00BEF918 /* ViewController.swift in Sources */,
 				BA8E45442110BE0F00BEF918 /* AppDelegate.swift in Sources */,
 				BA9BAEAD2119500B00F99A6B /* RootViewController.swift in Sources */,
 				BA9BAEB12119518800F99A6B /* AdminPageTwoViewController.swift in Sources */,
+				BA493F9A21233C160089868F /* CleanerAllJobsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

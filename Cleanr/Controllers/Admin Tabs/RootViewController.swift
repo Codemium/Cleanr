@@ -29,7 +29,7 @@ class RootViewController: UIViewController
         
         
         let viewController2 = storyboard?.instantiateViewController(withIdentifier: "historyVc") as! AdminPageTwoViewController
-        viewController2.title = "History"
+        viewController2.title = "Jobs"
         controllers.append(viewController2)
         
         let viewController3 = storyboard?.instantiateViewController(withIdentifier: "timesheetVc") as! AdminPageThreeViewController
