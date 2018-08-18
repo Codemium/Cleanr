@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D80FB2EF586407D9C30C1F9 /* Pods_Cleanr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842DC04C7C9D2D2AD59000C9 /* Pods_Cleanr.framework */; };
+		BA16AB5D2128759C00E173F9 /* CustomJobsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA16AB5C2128759C00E173F9 /* CustomJobsCell.swift */; };
 		BA200B6B211DCECF00C5E0F8 /* AdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA200B6A211DCECF00C5E0F8 /* AdminLoginViewController.swift */; };
 		BA200B72211DEC4900C5E0F8 /* CustomTimeSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA200B71211DEC4900C5E0F8 /* CustomTimeSheetCell.swift */; };
 		BA493F9A21233C160089868F /* CleanerAllJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA493F9921233C160089868F /* CleanerAllJobsViewController.swift */; };
@@ -27,6 +28,7 @@
 		0E379DD12126D1B328166343 /* Pods-Cleanr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleanr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cleanr/Pods-Cleanr.release.xcconfig"; sourceTree = "<group>"; };
 		7485FEB7010485B7AD1285DC /* Pods-Cleanr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleanr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cleanr/Pods-Cleanr.debug.xcconfig"; sourceTree = "<group>"; };
 		842DC04C7C9D2D2AD59000C9 /* Pods_Cleanr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cleanr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA16AB5C2128759C00E173F9 /* CustomJobsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomJobsCell.swift; sourceTree = "<group>"; };
 		BA200B6A211DCECF00C5E0F8 /* AdminLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginViewController.swift; sourceTree = "<group>"; };
 		BA200B71211DEC4900C5E0F8 /* CustomTimeSheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimeSheetCell.swift; sourceTree = "<group>"; };
 		BA493F9921233C160089868F /* CleanerAllJobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerAllJobsViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				BA200B71211DEC4900C5E0F8 /* CustomTimeSheetCell.swift */,
+				BA16AB5C2128759C00E173F9 /* CustomJobsCell.swift */,
 				BA493F9B212343F60089868F /* CleanerAllJobsTableViewCell.swift */,
 			);
 			path = "Custom Cell";
@@ -298,6 +301,7 @@
 				BA8E45462110BE0F00BEF918 /* ViewController.swift in Sources */,
 				BA8E45442110BE0F00BEF918 /* AppDelegate.swift in Sources */,
 				BA9BAEAD2119500B00F99A6B /* RootViewController.swift in Sources */,
+				BA16AB5D2128759C00E173F9 /* CustomJobsCell.swift in Sources */,
 				BA9BAEB12119518800F99A6B /* AdminPageTwoViewController.swift in Sources */,
 				BA493F9A21233C160089868F /* CleanerAllJobsViewController.swift in Sources */,
 			);
